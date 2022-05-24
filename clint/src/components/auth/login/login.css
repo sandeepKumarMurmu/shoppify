@@ -1,122 +1,121 @@
 * {
-    /* background-color: #b3e8e5; */
+  /* background-color: #b3e8e5; */
+}
+@media only screen and (min-width: 998px) {
+  .main_login_container {
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+    width: 450px;
+    /* border: 1px solid green; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: #15133c;
+    color: #9b9994;
+    border-radius: 4px;
+    margin-top: 50px;
   }
-  @media only screen and (min-width: 998px) {
-    .main_login_container {
-      margin: auto;
-      padding: 10px 10px 10px 10px;
-      width: 450px;
-      /* border: 1px solid green; */
-      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-      background-color: #15133c;
-      color: #9b9994;
-      border-radius: 4px;
-      margin-top: 50px;
-    }
-    .signIn_tag {
-      width: 100%;
-      text-align: center;
-    }
-    .form_container {
-      margin-top: 20px;
-    }
-    .form_container form {
-      display: flex;
-      flex-direction: column;
-      row-gap: 10px;
-      text-align: center;
-      font-size: 17px;
-    }
-    .form_container form > input:last-child {
-      margin-top: 20px;
-      font-weight: bold;
-      color: #b22727;
-    }
-    label {
-      font-weight: bold;
-    }
-    input {
-      text-align: center;
-      height: 40px;
-      width: 88%;
-      margin: auto;
-      border-radius: 5px;
-      border: none;
-    }
-    input:focus {
-      outline: none;
-    }
-    .Nav_signUp {
-      padding: 0px;
-      display: flex;
-      flex-direction: row-reverse;
-      width: 88%;
-      margin: auto;
-      margin-top: 10px;
-    }
-    .Nav_signUp p {
-      text-align: center;
-    }
+  .signIn_tag {
+    width: 100%;
+    text-align: center;
   }
-  @media only screen and (max-width: 998px) {
-    .main_login_container {
-      margin: auto;
-      padding: 10px 10px 10px 10px;
-      width: 88%;
-      /* border: 1px solid green; */
-      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-      background-color: #15133c;
-      color: #9b9994;
-      border-radius: 4px;
-    }
-    .signIn_tag {
-      width: 100%;
-      text-align: center;
-    }
-    .form_container {
-      margin-top: 20px;
-    }
-    .form_container form {
-      display: flex;
-      flex-direction: column;
-      row-gap: 10px;
-      text-align: center;
-      font-size: 17px;
-    }
-    .form_container form > input:last-child {
-      margin-top: 20px;
-      font-weight: bold;
-      color: #b22727;
-    }
-    label {
-      font-weight: bold;
-    }
-    input {
-      border: none;
-      text-align: center;
-      height: 40px;
-      width: 88%;
-      margin: auto;
-      border-radius: 5px;
-    }
-    input:focus {
-      outline: none;
-      /* outline: #29445e; */
-    }
-    .outer_container {
-      padding-top: 80px;
-    }
-    .Nav_signUp {
-      width: 88%;
-      margin: auto;
-      margin-top: 10px;
-    }
-    .Nav_signUp p {
-      text-align: center;
-    }
+  .form_container {
+    margin-top: 20px;
   }
-  
+  .form_container form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    text-align: center;
+    font-size: 17px;
+  }
+  .form_container form > input:last-child {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #b22727;
+  }
+  label {
+    font-weight: bold;
+  }
+  input {
+    text-align: center;
+    height: 40px;
+    width: 88%;
+    margin: auto;
+    border-radius: 5px;
+    border: none;
+  }
+  input:focus {
+    outline: none;
+  }
+  .Nav_signUp {
+    padding: 0px;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 88%;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .Nav_signUp p {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 998px) {
+  .main_login_container {
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+    width: 88%;
+    /* border: 1px solid green; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: #15133c;
+    color: #9b9994;
+    border-radius: 4px;
+  }
+  .signIn_tag {
+    width: 100%;
+    text-align: center;
+  }
+  .form_container {
+    margin-top: 20px;
+  }
+  .form_container form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    text-align: center;
+    font-size: 17px;
+  }
+  .form_container form > input:last-child {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #b22727;
+  }
+  label {
+    font-weight: bold;
+  }
+  input {
+    border: none;
+    text-align: center;
+    height: 40px;
+    width: 88%;
+    margin: auto;
+    border-radius: 5px;
+  }
+  input:focus {
+    outline: none;
+    /* outline: #29445e; */
+  }
+  .outer_container {
+    padding-top: 80px;
+  }
+  .Nav_signUp {
+    width: 88%;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .Nav_signUp p {
+    text-align: center;
+  }
+}
