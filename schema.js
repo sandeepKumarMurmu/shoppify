@@ -1,5 +1,15 @@
+//repo schema
+schema = {
+  reponName: "",
+  description: "",
+  pind: "",
+};
 
-
-
-
-schema={}
+//userSchema
+userSchema = {
+  userName: "",
+  bio: "",
+  workAt: "",
+  follower: "",
+  repo_id: [{}],
+};
