@@ -3,6 +3,7 @@ schema = {
   reponName: "",
   description: "",
   pind: "",
+  user_id:""
 };
 
 //userSchema
@@ -11,5 +12,5 @@ userSchema = {
   bio: "",
   workAt: "",
   follower: "",
-  repo_id: [{}],
+  repo_id: [{id_1},{id_2},{id_3},{id_4}],
 };
