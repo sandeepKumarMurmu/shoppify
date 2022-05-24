@@ -1,0 +1,30 @@
+.user_image {
+    border: 3px solid purple;
+    border-radius: 4px;
+    margin: auto;
+  }
+  @media only screen and (min-width: 998px) {
+    .container_user_listing {
+      margin: auto;
+    }
+    .outer_container_listing {
+      width: 100%;
+      padding-top: 10px;
+      /* border: 1px solid red; */
+    }
+  }
+  @media only screen and (max-width: 998px) {
+    .container_user_listing {
+      margin: auto;
+      /* margin-top: 20px; */
+    }
+    .outer_container_listing {
+      width: 100%;
+      padding-top: 60px;
+    }
+  }
+  
+  .container_user_listing::-webkit-scrollbar {
+    display: none;
+  }
+  
