@@ -16,6 +16,7 @@ app.use(cors());
 app.use("", AuthRoutes);
 app.use("", productRoutes);
 
+console.log(process.env.PORT)
 //connecting variables
 const URL = process.env.URL;
 const PORT = process.env.PORT || 2345;
