@@ -2,9 +2,9 @@ const Product = require("../model/product_model");
 
 const Product_controller = async (req, res) => {
   try {
-   
-    
-    const { _page, _sort,_limit } = req.query;
+    console.log("this is product");
+
+    const { _page, _sort, _limit } = req.query;
     let filter = [];
     for (var key in req.query) {
       if (key !== "_sort" && key !== "_limit" && key !== "_page")
@@ -29,6 +29,4 @@ const Product_controller = async (req, res) => {
   }
 };
 
-
-
-module.exports = {Product_controller};
+module.exports = { Product_controller };
